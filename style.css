@@ -1,0 +1,73 @@
+body{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    background-image:url('./img/jaguar.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.contenido{
+    padding-top: 150px;
+    padding-left: 110px;
+    
+   
+}
+.contenido_div{
+    padding-left: 40px;
+    padding-top: 30px;
+    width: 600px;
+    height: 280px;
+    color: white;
+    background-color: rgb(4, 5, 5);
+    opacity: 0.7;
+    border-radius: 10px;
+    font-size: 16px;
+   
+}
+.contenido_btn{
+    color: white;
+}
+
+button{
+    text-decoration: none;
+    background-color: red;
+    border:none;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    height:30px;
+    width: 125px;
+}
+/*tabletas*/
+@media (min-width:768px){
+    body{
+    background-image:url('./img/jaguar.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    }
+    
+   
+}
+/*escritorio normales*/
+@media (min-width:992px){
+    body{
+    background-image:url('./img/jaguar.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    }
+    
+}
+/*pantallas grandes*/
+@media (min-width:1200px){
+    body{
+    background-image:url('./img/jaguar.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    }
+    
+}
